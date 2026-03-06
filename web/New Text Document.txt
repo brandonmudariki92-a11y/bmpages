@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nutec & Wendy House Specialists | Western Cape</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:34px;
+}
+
+header p{
+margin-top:5px;
+opacity:0.8;
+}
+
+.hero{
+height:480px;
+background:url("house1.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h2{
+background:rgba(0,0,0,0.6);
+color:white;
+padding:20px 30px;
+border-radius:8px;
+font-size:30px;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#0f172a;
+}
+
+.about{
+font-size:18px;
+line-height:1.7;
+max-width:850px;
+margin:auto;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{
+margin-top:0;
+}
+
+.contact{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.contact h2{
+color:white;
+}
+
+.contact p{
+font-size:18px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:16px 22px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+.whatsapp:hover{
+background:#1ebe5d;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Nutec & Wendy House Specialists</h1>
+<p>Western Cape</p>
+</header>
+
+<div class="hero">
+<h2>Professional Nutec & Wendy House Construction</h2>
+</div>
+
+<section>
+
+<h2>About Our Company</h2>
+
+<p class="about">
+We are a reputable company specializing in Nutec and Wendy house construction in the Western Cape. 
+We build houses in all sizes and shapes depending on our clients' needs.
+</p>
+
+<br>
+
+<p class="about">
+We guarantee hustle-free and stress-free standards while providing quality and affordable housing solutions for all our valued clients.
+</p>
+
+<br>
+
+<p class="about">
+We offer the best designs to meet your dream home standards. Our team is eco-friendly and proud of our etiquette and professional construction skills.
+</p>
+
+</section>
+
+<section>
+
+<h2>Our Recent Projects</h2>
+
+<div class="gallery">
+
+<img src="house1.jpg">
+<img src="house2.jpg">
+<img src="house3.jpg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Nutec Houses</h3>
+<p>Durable and modern Nutec house construction built with quality materials.</p>
+</div>
+
+<div class="card">
+<h3>Wendy Houses</h3>
+<p>Custom Wendy houses for homes, offices, storage or accommodation.</p>
+</div>
+
+<div class="card">
+<h3>Custom Designs</h3>
+<p>We build structures in all sizes and shapes to match your dream project.</p>
+</div>
+
+<div class="card">
+<h3>Affordable Housing</h3>
+<p>Professional work with affordable prices and reliable service.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="contact">
+
+<h2>Contact Us</h2>
+
+<p>For more information contact:</p>
+
+<p><strong>Dean</strong></p>
+
+<p>📞 081 308 4197</p>
+
+<p>📧 Hendricksdean07@gmail.com</p>
+
+<p>Western Cape, South Africa</p>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/27813084197" target="_blank">
+💬 Chat on WhatsApp
+</a>
+
+<footer>
+© 2026 Nutec & Wendy House Specialists
+</footer>
+
+</body>
+</html>
